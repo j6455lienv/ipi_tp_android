@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">taste-and-see</string>
+    <string name="psswdText">julien</string>
+    <string name="loginText">julien</string>
+    <string name="buttonText">se connecter</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="test_textView">Bonjour</string>
+</resources>
