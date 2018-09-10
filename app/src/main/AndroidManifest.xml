@@ -26,6 +26,7 @@
     <activity android:name=".sub_menu.RecetteActivity">
     </activity>
     <activity android:name=".sub_menu.DownActivity" />
+    <activity android:name=".PreferencesActivity" />
   </application>
 
 </manifest>

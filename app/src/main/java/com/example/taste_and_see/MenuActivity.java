@@ -36,7 +36,7 @@ public class MenuActivity extends Activity implements View.OnClickListener {
   public void onClick(View v) {
 
     if (v.getId() == R.id.menu_img1) {
-      Intent intent = new Intent(this, FavActivity.class);
+      Intent intent = new Intent(this, PreferencesActivity.class);
       startActivity(intent);
     }else if (v.getId() == R.id.menu_img2) {
       Intent intent = new Intent(this, RecetteActivity.class);
