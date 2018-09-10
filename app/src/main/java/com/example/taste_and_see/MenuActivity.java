@@ -8,8 +8,8 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.taste_and_see.sub_menu.DownActivity;
-import com.example.taste_and_see.sub_menu.FavActivity;
-import com.example.taste_and_see.sub_menu.MapActivity;
+import com.example.taste_and_see.sub_menu.MapsActivity;
+import com.example.taste_and_see.sub_menu.PreferencesActivity;
 import com.example.taste_and_see.sub_menu.RecetteActivity;
 
 public class MenuActivity extends Activity implements View.OnClickListener {
@@ -45,7 +45,7 @@ public class MenuActivity extends Activity implements View.OnClickListener {
       Intent intent = new Intent(this, DownActivity.class);
       startActivity(intent);
     } else if (v.getId() == R.id.menu_img4) {
-      Intent intent = new Intent(this, MapActivity.class);
+      Intent intent = new Intent(this, MapsActivity.class);
       startActivity(intent);
     } else{
       Toast.makeText(this, "Error cassé !!", Toast.LENGTH_SHORT).show();

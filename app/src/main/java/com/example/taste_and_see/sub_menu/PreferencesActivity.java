@@ -1,8 +1,10 @@
-package com.example.taste_and_see;
+package com.example.taste_and_see.sub_menu;
 
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
 import android.os.Bundle;
+
+import com.example.taste_and_see.R;
 
 public class PreferencesActivity extends PreferenceActivity {
 
@@ -19,4 +21,5 @@ public class PreferencesActivity extends PreferenceActivity {
       addPreferencesFromResource(R.xml.preferences);
     }
   }
+
 }
