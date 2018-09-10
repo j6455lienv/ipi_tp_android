@@ -3,7 +3,6 @@ package com.example.taste_and_see.sub_menu;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 
 import com.example.taste_and_see.R;
@@ -61,6 +60,7 @@ public class RecetteActivity extends Activity{
 
     ListView lv = findViewById(R.id.recette_listView);
     lv.setAdapter(ra);
+
 
   }
 
